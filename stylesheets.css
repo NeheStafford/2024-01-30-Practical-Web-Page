@@ -1,0 +1,32 @@
+div {
+    border: 6px outset #ffa200;
+    background-color: rgb(242, 222, 197);
+    box-shadow: 6px 6px 3px rgba(255, 128, 247, 0.66);
+}
+
+h1 {
+    font-family: 'Bungee Spice';
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+ }
+
+ h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(100%,0%,100%,1.00);
+    text-align:center;
+    text-shadow: 1px 1px 2px black;
+ }
+
+ /* copied from How to resize an image to fit in the browser window? https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window  */
+
+ p { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+
+ img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
